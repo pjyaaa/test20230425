@@ -1,0 +1,57 @@
+Index: test20230511.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># author: panjiaoye time:2023/5/11\r\n# 测试1\r\n# 测试2\r\n# 测试3\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test20230511.py	(revision 672e1861ed60c38365c02224ac4a9f8c15025ebb)
++++ test20230511.py	(date 1683768715790)
+@@ -2,4 +2,7 @@
+ # 测试1
+ # 测试2
+ # 测试3
++# 测试4
++# 测试5
++
+ 
+Index: test20230510a.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test20230510a.py	(date 1683699867317)
++++ test20230510a.py	(date 1683699867317)
+@@ -0,0 +1,3 @@
++#！/usr/bin/env python
++#  -*- coding:utf-8 -*-
++# author: panjiaoye time:2023/5/10
+\ No newline at end of file
+Index: test20230510.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test20230510.py	(date 1683708146217)
++++ test20230510.py	(date 1683708146217)
+@@ -0,0 +1,20 @@
++#！/usr/bin/env python
++#  -*- coding:utf-8 -*-
++# author: panjiaoye time:${DATE}
++import tornado.web
++import urllib.request
++
++def f():
++    for i in range(10):
++        print(i)
++
++f()
++
++
++
++
++
++
++
++
++
